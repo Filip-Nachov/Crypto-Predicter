@@ -10,7 +10,27 @@ button{
     background-color: rgb( 45, 41, 38);
     color: white;
 }
+
 .our-logo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.our-logo > * {
+    width: auto;
+    height: 200px;
+}
+
+.our-logo > img {
+    place-self: center;
+}
+
+.centering {
+    text-align: center;
+    margin: 0 20rem;
+}
+
+.centering > p {
+    font-size: 20px;
+    font-weight: 300;
 }
