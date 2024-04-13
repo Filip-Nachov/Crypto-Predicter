@@ -1,0 +1,23 @@
+#content {
+    display: grid;
+}
+
+table {
+    border-collapse: collapse;
+    height: 50%;
+    width: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#content {
+    grid-template-columns: 1fr 1fr;
+}
+
+#crypto {
+    justify-self: center;
+}

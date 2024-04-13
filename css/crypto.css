@@ -1,0 +1,13 @@
+.link-container {
+    text-align: center;
+}
+
+.left-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.right-image {
+    float: right;
+    margin-right: 20px;
+}

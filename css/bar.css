@@ -1,0 +1,45 @@
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0e1111;
+    height: 100px;
+
+}
+
+.pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.pages > *, 
+.nav > * {
+    margin: 20px;
+    font-size: 20px;
+    padding: 4px;
+    background-color:  #232B2B;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a:hover {
+    color: grey;
+}
+
