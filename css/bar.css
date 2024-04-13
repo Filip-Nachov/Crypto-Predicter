@@ -1,0 +1,27 @@
+.bar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages > *, 
+.nav > * {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
