@@ -1,8 +1,8 @@
 .bar {
     display: flex;
     flex-wrap: wrap;
-    background-color: #1e1111;
-    height: 101px;
+    background-color: #0e1111;
+    height: 100px;
 
 }
 
@@ -42,4 +42,3 @@
 a:hover {
     color: grey;
 }
-
