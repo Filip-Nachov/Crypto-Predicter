@@ -22,7 +22,8 @@ button{
 }
 
 .our-logo > img {
-    place-self: center;
+    margin: auto;
+    display: flex;
 }
 
 .centering {
@@ -34,3 +35,7 @@ button{
     font-size: 20px;
     font-weight: 300;
 }
+.push-down {
+    margin-top: 60px;
+}
+
