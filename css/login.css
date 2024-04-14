@@ -9,7 +9,6 @@ body, html{
     height: calc(100% - 101px);
 }
 
-
 .box{
     width: 1000px;
     height: 700px;
@@ -17,11 +16,8 @@ body, html{
     border-radius: 50px;
 
 }
+
 .centering{
-    display: flex;
-    justify-content: center;
-}
-textarea{
     display: flex;
     justify-content: center;
 }
@@ -32,6 +28,4 @@ input{
     outline: none;
     background-color: transparent;
     color: white;
-    
 }
-
