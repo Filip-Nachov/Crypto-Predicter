@@ -1,0 +1,37 @@
+body, html{
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 101px);
+}
+
+
+.box{
+    width: 1000px;
+    height: 700px;
+    background-color: #1e1111;
+    border-radius: 50px;
+
+}
+.centering{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
