@@ -3,12 +3,12 @@ import sqlite3
 
 # Connecting to a database
 con = sqlite3.connect("database.db")
-#creating a cursor object
+# creating a cursor object
 cur = con.cursor()
 
-#defing the database values
-cur.execute('SELECT * FROM users')
+# making the data base
+cur.execute("CREATE TABLE IF NOT EXISTS users(email TEXT, password TEXT)")
 
-#close the database
+# close the database
 cur.close()
-con.close
+con.close()
