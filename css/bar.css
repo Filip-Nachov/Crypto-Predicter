@@ -1,8 +1,9 @@
 .bar {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     background-color: #0e1111;
-    height: 100px;
+    height: 101px;
 
 }
 
@@ -29,7 +30,7 @@
     padding: 4px;
     background-color:  #232B2B;
     border-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .logo {
@@ -42,3 +43,4 @@
 a:hover {
     color: grey;
 }
+
