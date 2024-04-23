@@ -28,11 +28,33 @@ def register():
 
     return render_template('register.html') 
 
+@app.route('/login', methods=('GET', 'POST'))
 def login():
-    ...
+    if request.mentod = 'POST':
+        username = request.form['username']
+        password = request.form['password']
 
-def log_out():
-    ...
+        cursor.excecute('''SELECT * FROM users WHERE username = ?''', (username))
+        user = cursor.fetchone()
 
+        if user and check_password_hash(user[2], password):
+            session[''] = True
+            session[''] = username
+            
+
+            flash('Logged in succsesfully!', 'succses')
+            return redirect(url_for('profile'))
+        else:
+            flash('Invalid username or password', 'error')
+
+    return render_template('login.html')
+
+@app.route('/logout')
+@login_required
+def logout():
+    session.clear()
+    flash('Logged out succsesfully!', 'sucses')
+    return redirect(url_for('login'))
+    
 
 
