@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    
+ }
+
+.balance{
+    flex: 1 1 1 ;
+    height: 150px;
+    width: 500px;
+    margin:20px;
+    background-color: green;
+    border-radius: 20px;
+}
+.currentcrypto{
+    height: 150px;
+    width:500px
+
+
+}
