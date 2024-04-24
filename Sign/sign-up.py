@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 import sqlite3
 import werkzeug.security
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -12,6 +12,14 @@ cur.execute("CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARYKEY, username TE
 
 # making the basic flask app
 app = Flask('app')
+
+@app.route('/data', methods=['GET'])
+def get_data():
+    data = {'message': 'Hello from Flask!'}
+    return jsonify(data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
