@@ -1,23 +1,90 @@
-#content {
-    display: grid;
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
 }
 
-table {
-    border-collapse: collapse;
-    height: 50%;
+.balance,
+.previous,
+.currentcrypto{
+    
+    flex: 1 1 1 ;
+    margin: 20px;
+    background-color: #0e1111;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+.balance{
+    height: 150px;
+    width: 500px;
+}
+
+.currentcrypto .values{
+    display: flex; /* Set display to flex */
+    flex: 1; 
+    flex-direction: row; /* Set direction to row */
+    justify-content: start;
+    align-items: center; /* Align items vertically in the center */
+    gap: 20%;
+}
+.currentcrypto{
+    height: 550px;
     width: auto;
 }
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+.values > *{
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    background-color: gray;
+    gap: 20px;
 }
 
-#content {
-    grid-template-columns: 1fr 1fr;
+.values{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.valuesp > *{
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+    background-color: gray;
+    gap: 20px;
+    margin: 100px
 }
 
-#crypto {
-    justify-self: center;
+.previous {
+    height: auto;
+    width: auto;
+
 }
+.previoustxt{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    font-weight: bold;
+}
+.sec > * {
+    margin: 20px;
+    font-size: 30px;
+    padding: 4px;
+    background-color:  #232B2B;
+    border-color: white;
+    border-radius: 5px;
+    position: relative;
+    bottom: 830px;
+}
+
+
