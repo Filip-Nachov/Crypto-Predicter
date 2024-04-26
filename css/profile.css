@@ -4,6 +4,7 @@
 }
 
 .box{
+    display: flex;
     margin-top: 2em;
     width: 55%;
     height: 800px;
@@ -11,5 +12,22 @@
     border-radius: 20px;
 }
 .pfp{
+    display: flex;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 3em 3em;
             
 }
+
+.u-section{
+    margin-top: 3em;
+    width: 300px;
+    height: 100px;
+    background-color:  #232B2B;
+    border-radius: 20px;
+}
+p{
+    font-weight: bold;
+}
+
