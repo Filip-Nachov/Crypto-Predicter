@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;    
+}
+
+.box{
+    margin-top: 2em;
+    width: 55%;
+    height: 800px;
+    background-color: #0e1111;
+    border-radius: 20px;
+}
+.pfp{
+            
+}
