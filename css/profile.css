@@ -47,6 +47,25 @@
     border-radius: 20px;
 }
 
+.push{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 2em;
+    background-color: #232B2B;
+    border-radius: 20px;
+    font-size: 17px;
+
+    
+}
 p{ 
     font-weight: bold;
 }
