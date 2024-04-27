@@ -1,0 +1,53 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 55%;
+    height: 800px;
+    background-color: #0e1111;
+    border-radius: 20px;
+}
+.pfp{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 2em 3em;
+
+}
+.ul{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    gap: 10px;
+
+}
+.li{
+    display: flex;
+}
+
+.a{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;  
+    background-color:  #232B2B;
+}
+.section{
+    width: 100px;
+    height: 100px; 
+    background-color:  #232B2B;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
