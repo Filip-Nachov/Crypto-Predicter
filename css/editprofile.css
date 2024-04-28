@@ -1,4 +1,4 @@
-.container{
+.body{
 
     display: flex;
     justify-content: center;
@@ -40,14 +40,41 @@
     font-size: 30px;  
     background-color:  #232B2B;
 }
-.section{
-    width: 100px;
-    height: 100px; 
+.u-section{
+    position: relative;
+    top: 50%;
+    width: 300px;
+    height: 70px; 
     background-color:  #232B2B;
 
 }
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.p-section{
+    width: 300px;
+    height: 70px;
+    position: relative;
+    right: 300px;
+    top: 300px;
+    background-color:  #232B2B;
 }
+.u-section,
+.p-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.u-section > *,
+.p-section > *{
+    font-size: 27px;
+    margin-left: 1em;
+} 
+
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
