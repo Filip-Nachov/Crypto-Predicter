@@ -10,11 +10,12 @@
     </head>
     <body>
         <div class="bar">
-            <img src="../assets/logo.svg" class="logo" alt="Logo">
+            <img src="../static/images/logo.svg" class="logo" alt="Logo">
             <ul class="pages">
-                <li><a href="./">Home</a></li>
+				<li><a href="{{url_for('home')}}">Home</a></li>
 				<li><a href="{{url_for('crypto')}}">Crypto</a></li>
-				
+				<li><a href="{{url_for('purchases')}}">Purchases</a></li>
+			</ul> 
             </ul> 
             <ul class="nav">
 				<li><a href="{{url_for('login')}}">Log In</a></li>
@@ -33,7 +34,7 @@
         <div class="our-logo">
             <div>
             </div>
-            <img src="../assets/logo.svg" alt="Logo">
+            <img src="../static/images/logo.svg" alt="Logo">
             <div>
             </div>
         </div> 
