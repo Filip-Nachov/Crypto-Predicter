@@ -4,22 +4,22 @@
         <meta charset="UTF-7">
         <meta name="viewport" content="width=device-width, initial-scale=2">
         <title></title>
-        <link href="../css/bar.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link href="../css/editprofile.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bar.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/editprofile.css') }}"> 
     </head>
     <body>
         <div class="bar">
             <img src="../assets/logo.svg" class="logo" alt="Logo">
             <ul class="pages">
-                <li><a href="./">Home</a></li>
-                <li><a href="crypto.html">Crypto</a></li>
-                <li><a href="purchases.html">Purchases</a></li>
+				<li><a href="{{url_for('home')}}">Home</a></li>
+				<li><a href="{{url_for('crypto')}}">Crypto</a></li>
+				<li><a href="{{url_for('purchases')}}">Purchases</a></li>
             </ul> 
-            <ul class="nav">
-                <li><a href="login.html">Log In</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="profile.html">Profile</a></li>
+		 <ul class="nav">
+				<li><a href="{{url_for('login')}}">Log In</a></li>
+				<li><a href="{{url_for('register')}}">Sign Up</a></li>
+				<li><a href="{{url_for('profile')}}">Profile</a></li>
             </ul>
         </div>
     </body>
@@ -37,8 +37,8 @@
                 
             </div>
              <ul class="ul">
-                <li class="li"><a class="a" href="profile.html">Go back</a></li>
-                <li class="li"><a class="a" href="signup.html">Log out</a></li>
+				 <li class="li"><a class="a" href="{{url_for('profile')}}">Go back</a></li>
+				 <li class="li"><a class="a" href="{{url_for('register')}}">Log out</a></li>
              </ul>
         </div> 
             

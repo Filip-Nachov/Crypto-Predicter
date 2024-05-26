@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='css/registration.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='css/bar.css') }}"> 
+    </head>
+    <body>
+        <div class="bar">
+            <img src="../static/images/logo.svg" class="logo" alt="Logo">
+            <ul class="pages">
+                <li><a href="{{url_for('home')}}">Home</a></li>
+                <li><a href="{{url_for('crypto')}}">Crypto</a></li>
+                <li><a href="{{url_for('purchases')}}">Purchases</a></li>
+            </ul> 
+            <ul class="nav">
+
+                <li><a href="{{url_for('login')}}">Log In</a></li>
+				<li><a href="{{url_for('register')}}">Sign Up</a></li> 
+                 <li><a href="{{url_for('profile')}}">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="center">
+            <h1>Sign Up</h1>
+            <form method="post" id='signupForm'>
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Confirm Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+					Already a member? <a href={{url_for('login')}}>Log In</a>
+                </div>
+            </form>
+        </div>
+         <script src="caller.js"></script>
+    </body>
+</html>
