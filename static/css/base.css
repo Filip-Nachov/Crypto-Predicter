@@ -10,3 +10,6 @@ li {
     list-style-type: none;
 }
 
+ul li {
+    background-color: transparent !important;
+}
