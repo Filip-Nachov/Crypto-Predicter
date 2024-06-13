@@ -13,16 +13,17 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    background: white;
+    background: #333; 
+    color: #fff; 
     border-radius: 10px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .center h1{
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid silver;
-    color: black;
+    color: #fff;
 }
 
 .center form{
@@ -50,7 +51,6 @@ form .txt_field{
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #adadad;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
