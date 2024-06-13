@@ -28,12 +28,17 @@ input {
 
 
 .input-container {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: from-start;
+    width: 600px;
+    height: 400px;
     margin: 0 auto; 
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #292b32;
+    box-shadow: 0 2px 5px rgb(0, 2, 1);
 }
 
 .input-field {
@@ -49,7 +54,7 @@ input {
  .submit-btn {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: grey;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -58,7 +63,8 @@ input {
 }
 
 .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #2f7070;
+    color: black;
 }
 
 img{
