@@ -1,5 +1,11 @@
 body {
+    /* Adding Roboto font */
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    /* apperance */
+    color: white;
+    background-color: #232B2B;
+    margin: 0;
+    padding: 0;
 }
