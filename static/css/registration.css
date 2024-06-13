@@ -45,6 +45,7 @@ form .txt_field{
     border: none;
     background: none;
     outline: none;
+    color: white;
 }
 
 .txt_field label{
