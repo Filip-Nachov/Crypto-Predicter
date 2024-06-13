@@ -1,2 +1,2 @@
 # Crypto-Predicter
-The project is currently not under delevopment for the reason of no frontend developers 
+The project is currently not under development for the reason no frontend developers and even if there is a development it will be slower than usual
