@@ -15,23 +15,8 @@ body, html {
     margin-right: 20px;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(50% - 100px);
-}
-.box{
-    background-color: #0e1111;
-    width: 70%;
-    height: 400px;
-    border-radius: 50px;
+
   
-}
-.box > p{
-    font-size: 80px;
-    margin-left: 30px;
-}
 input {
     border: none;
     outline: none;
@@ -40,14 +25,48 @@ input {
     height: 30px;
     
 }
-.container{
-    height: calc(30% - 100px );
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 300px;
 
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: from-start;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #292b32;
+    box-shadow: 0 2px 5px rgb(0, 2, 1);
 }
+
+.input-field {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #2f7070;
+    color: black;
+}
+
 img{
     margin-top: 6px;
     height: 45px;
