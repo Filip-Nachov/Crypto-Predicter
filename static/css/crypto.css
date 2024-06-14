@@ -23,7 +23,6 @@ input {
     background-color: white;
     width: 20px;
     height: 30px;
-    
 }
 
 
@@ -36,9 +35,9 @@ input {
     height: 400px;
     padding: 30px;
     border: 1px solid black;
-    border-radius: 5px;
     background-color: #0e1111;
-    box-shadow: 0 2px 5px rgb(0, 2, 1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .input-field {
